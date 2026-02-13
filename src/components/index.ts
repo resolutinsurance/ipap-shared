@@ -127,12 +127,7 @@ export {
 export { PasswordInput } from "./ui/password-input";
 
 // Popover
-export {
-  Popover,
-  PopoverAnchor,
-  PopoverContent,
-  PopoverTrigger,
-} from "./ui/popover";
+export { Popover, PopoverAnchor, PopoverContent, PopoverTrigger } from "./ui/popover";
 
 // Premium Shield Terms
 export { PremiumShieldTerms } from "./ui/premium-shield-terms";
@@ -142,9 +137,6 @@ export { RadioGroup, RadioGroupItem } from "./ui/radio-group";
 
 // Scroll Area
 export { ScrollArea, ScrollBar } from "./ui/scroll-area";
-
-// Search Box
-export { default as SearchBox } from "./ui/search-box";
 
 // Select
 export {
@@ -231,12 +223,10 @@ export { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs";
 export { Textarea } from "./ui/textarea";
 
 // Tooltip
-export {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "./ui/tooltip";
+export { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "./ui/tooltip";
 
 // Width Constraint
-export { default as WidthConstraint } from "./ui/width-constraint";
+export { WidthConstraint } from "./ui/width-constraint";
+
+// Search Box
+export { SearchBox } from "./ui/search-box";

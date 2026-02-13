@@ -1,9 +1,9 @@
+import { Search } from "lucide-react";
 import { SearchBoxProps } from "../../interfaces/ui";
 import { cn } from "../../lib/utils";
-import { Search } from "lucide-react";
 import { Input } from "../ui/input";
 
-export default function SearchBox(props?: SearchBoxProps) {
+export function SearchBox(props?: SearchBoxProps) {
   return (
     <div
       className={cn(

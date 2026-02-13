@@ -1,7 +1,7 @@
-import { cn } from "../../lib/utils";
 import type { JSX, ReactNode } from "react";
+import { cn } from "../../lib/utils";
 
-export default function WidthConstraint({
+export function WidthConstraint({
   isHome = false,
   ...props
 }: {
